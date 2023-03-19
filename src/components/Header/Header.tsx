@@ -1,4 +1,4 @@
-import { ReactComponent as LogoIcone } from "../../assets/icons/logo.svg";
+import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
 import "./styles.scss";
 
 export const Header = () => {
@@ -6,7 +6,7 @@ export const Header = () => {
     <div className="header">
       <div className="header__container container">
         <a href="/" className="header__logo ">
-          <LogoIcone />
+          <LogoIcon />
         </a>
         <nav className="header__nav">
           <a href="/" className="header__link header__link--active">
